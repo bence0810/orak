@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>kapcsolat</title>
+	<meta name="viewport" content="width=device-widthm, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css" media="only screen and (max-width: 767px)">
+	<link rel="stylesheet" type="text/css" href="css/tablet.css" media="only screen and (min-width: 768px) and (max-width: 1199px)">
+	<link rel="stylesheet" type="text/css" href="css/monitor.css" media="only screen and (min-width: 1200px)">
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+
+
+</head>
+
+<body>
+
+<header class="container-fluid grey">
+	<div class="container">
+		<nav>
+			<ul>
+				<li><a href="#">Történet</a></li>
+				<li><a href="index.html">Termékek</a></li>
+				<li><a href="#">Nagykövetek</a></li>
+				<li><a href="#">Újdonságok</a></li>
+				<li><a href="kapcsolat.html">Kapcsolat</a></li>
+			</ul>
+		</nav>
+		<form id="kereso" action="kereso.php" method="post">
+			<input type="text" name="kereso" placeholder="Kereses...">
+			<input type="image" name="keresbtn" src="css/img/kereso.jpg" alt="kereses">
+		</form>
+	</div>
+</header>
+
+
+
+<div class="container-fluid black">
+	<div class="container">
+<div class="mo6">
+	<h2>Kapcsolat</h2>	
+	<p>Cim: 1234 Budapest, yebra ter 10.</p>
+	<p>Tel.: +36 1 123 1234</p>
+	<h3>Nyitvatartas</h3>
+	<ul>
+		<li>Hetfo - Pentek 09:00 - 17:00</li>
+		<li>Szombat: 10:00 - 16:00</li>
+		<li>Vasarnap: Zarva</li>
+	</ul>
+	</div>
+
+
+<div class="mo6">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10775.347657190325!2d19.0668506!3d47.532038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaa7f29b9cbfce909!2sRuander+Oktat%C3%A1si+Kft.!5e0!3m2!1sen!2shu!4v1506421961345" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+<div class="container-fluid white">
+	<div class="container">
+	<h2>Kerdese van? Irjon nekunk</h2>
+<form id="kapcsolat" action="feldolgoto.php" method="post">
+				
+				<div>
+					<input type="text" name="nev" placeholder="Neve" required>
+				</div>
+				
+				<div>
+					<input type="email" name="email" placeholder="E-mail" required>
+				</div>
+				
+				<div>
+					<select name="tipus">
+						<option selected disabled=""> Uzenet tipusa</option>
+						<option>Kerdes</option>
+						<option>Eszrevetel</option>
+						<option>Egyeb</option>
+					</select>
+				</div>
+				
+				<div>
+					<textarea name="uzenet" placeholder="Uzenet" rows="6"></textarea>
+					</div>
+					<div class="g-recaptcha" data-sitekey="6LfPPDIUAAAAAH7iGW-nPgYUIJQDmK2BE5OPlOC5"></div>
+				
+				<button>Kuldes</button>
+				
+			</form>
+			
+</div>
+</div>
+
+<footer class="container-fluid black">
+	<div class="container">
+		<p>Copyright - Bence Olah - 2017</p>
+	</div>
+</footer>
+		<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+		<script src="js/menu.js" type="text/javascript"></script>
+		<script src="js/toTop.js" type="text/javascript"></script>
+
+
+</body>
+</html>

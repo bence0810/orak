@@ -1,0 +1,65 @@
+.container {
+ 	width: 720px;
+ }
+
+nav li {
+	margin-top: 20px;
+ 	margin-bottom: 20px;
+ }
+
+nav li a {
+ 	padding: 30px;
+ }
+
+header form [type=text] {
+	padding: 8px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+header form [type=image] {
+	margin-top: 11px;
+	margin-left: 10px;
+}
+
+#background {
+	background-size: 720px;
+	height: 424px;
+}
+
+h1 {
+	font-size: 75px;
+	margin-top: 50px;
+}
+
+h2 {
+	font-size: 40px;
+	margin-top: 70px;
+}
+
+article  {
+	margin: 0 15px 70px 15px;
+}
+
+.grey article {
+	width: 210px;
+}
+
+.white article {
+	width: 330px;
+}
+
+.white article img {
+	width: 70%;
+	margin-left: 15%;
+}
+
+footer {
+	padding: 30px 0;
+}
+
+.mo6 {
+	width: 330px;
+	
+
+}

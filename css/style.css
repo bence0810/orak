@@ -1,0 +1,221 @@
+@font-face { /*cimnel*/
+	src: url(font/GillSansStd-Bold.otf);
+	font-family: GillSansStdBold;
+}
+@font-face {
+		src: url(font/GillSansStdLight.ttf);
+		font-family: GillSansStdLight;
+}
+@font-face {
+		src: url(../font/centurygothicregular.ttf);
+		font-family: centurygothic;
+}
+
+
+
+body {
+	margin: 0;
+	font-family: centurygothic;
+
+}
+
+.container-fluid {
+	width: 100%;
+	float: left;
+
+}
+
+.container {
+ 	margin: auto;
+
+ }
+
+
+.grey {
+	background-color: #292929;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.black {
+	background-color: black;
+	color: rgba(255, 255, 255, 0.8);
+
+}
+
+.white {
+	background-color: white;
+	color: rgba(0, 0, 0, 0.68);
+
+}
+
+ 
+
+ header nav ul {
+ 	list-style-type: none;
+ 	margin: 0;
+ 	padding: 0;
+
+
+ 
+
+}
+ nav li {
+
+ 	float: left;
+ 	
+ }
+
+ nav li a {
+
+ 	text-decoration: none;
+ 	color: rgba(255, 255, 255, 0.8);
+
+ }
+
+ nav ul li a:hover {
+ 	background-color: #64214d;
+ }
+
+header form [type=text] {
+	
+	float: left; 
+	background-color: rgba(255, 255, 255, 0.38);
+
+	border: solid 1px black;
+	box-shadow: 0 0 10px #64214d;
+
+}
+
+header form [type=image] {
+	outline: none;
+}
+
+
+header form {
+	float: right;
+}
+#background {
+	background-image: url(../css/img/header.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+
+
+}
+
+h1 {
+	font-family:GillSansStdBold;
+	float: left;
+
+}
+h1 span {
+	font-family: GillSansStdLight;
+}
+
+h2 {
+	text-align: center;
+	font-weight: lighter;
+}
+
+article  {
+	
+	float: left;
+
+}
+
+
+
+
+article img {
+	width: 100%;
+}
+
+
+article p {
+	text-align: center;
+}
+
+
+.btn {
+	background-color: #64214d;
+	padding: 10px 20px;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+}
+.btn:hover {
+	background-color: #853e6d;
+}
+
+
+footer p {
+	text-align: center;
+	font-size: 14px;
+	color: grey;
+}
+
+#totop {
+	background-color: 
+}
+
+
+iframe {
+
+
+
+}
+
+.mo6 {
+	float: left;
+	text-align: center;
+}
+
+.mo6 ul {
+	list-style-type: none;
+	padding: 0;
+
+}
+
+#kapcsolat div {
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+#kapcsolat form input {
+	width: 200px;
+	padding: 10px;
+}
+
+#kapcsolat select {
+	width: 223px;
+	padding: 10px;
+
+}
+
+#kapcsolat textarea {
+	width: 200px;
+	padding: 10px;
+	font-family: arial;
+	font-size: 13px;
+	resize: none;
+}
+
+#kapcsolat button {
+	background-color: #AD2835;
+	padding: 10px 25px;
+	color: white;
+	border: none;
+	font-size: 16px;
+	font-family: LiberationSerif-Regula;
+}
+
+button:hover {
+	background-color: #cc2e3f;
+
+}
+
+.g-recaptha {
+	width: 300px;
+	margin: auto;
+}
